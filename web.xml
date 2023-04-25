@@ -1,0 +1,11 @@
+<web-app>
+  <servlet>
+    <servlet-name>demo</servlet-name>
+    <servlet-class>FindCubeServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>demo</servlet-name>
+    <url-pattern>/sum</url-pattern>
+  </servlet-mapping>
+</web-app>  
